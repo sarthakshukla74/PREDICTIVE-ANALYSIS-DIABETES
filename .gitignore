@@ -1,0 +1,77 @@
+#-------------#
+# Python Files
+#-------------#
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.joblib
+
+#----------------------#
+# Jupyter/Colab Notebooks
+#----------------------#
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_convert/
+
+# Colab uploaded files
+*.csv
+*.xlsx
+*.txt
+*.data
+
+#----------------------#
+# Virtual Environment
+#----------------------#
+venv/
+env/
+.venv/
+ENV/
+*.swp
+
+#----------------------#
+# System Files
+#----------------------#
+.DS_Store
+Thumbs.db
+
+#----------------------#
+# Logs
+#----------------------#
+*.log
+
+#----------------------#
+# IDE / Editor Files
+#----------------------#
+.vscode/
+.idea/
+
+#----------------------#
+# Caches
+#----------------------#
+__pycache__/
+*.cache
+*.pytest_cache/
+
+#----------------------#
+# Model Artifacts
+#----------------------#
+*.model
+*.pth
+*.onnx
+
+#----------------------#
+# Plots / Generated Images
+#----------------------#
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+#----------------------#
+# Environment/Config Files
+#----------------------#
+*.env
+.env.*
